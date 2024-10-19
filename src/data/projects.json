@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Project Biofuel Supply Chain",
+    "imageSrc": "projects/images.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Angular","Java","Sql",  "Spring Boot"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/chopadevaibhav03/projectBiofuel"
+  },
+  {
+    "title": "Food ordering Web Application",
+    "imageSrc": "projects/food.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/chopadevaibhav03/React-Development"
+  },
+  {
+    "title": "Ecom Web Application",
+    "imageSrc": "projects/cart.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Java", "Spring Boot"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/chopadevaibhav03/EcomApp-spring-react"
+  },
+  {
+    "title": "Hotel Managment",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["C++"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/chopadevaibhav03/Hotel-Managment"
+  }
+]

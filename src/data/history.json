@@ -1,0 +1,29 @@
+[
+  {
+    "role": "SDE 1",
+    "organisation": "BlueStock Fintech",
+    "startDate": "Oct, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Working on REST API's Development For IPO ",
+      "Implimenting Stock Marketing Buissnes Logic"
+    ],
+    "imageSrc": "history/7RFqZYlp_400x400.png"
+  },
+  {
+    "role": "Java Intern",
+    "organisation": "TAS Innovation",
+    "startDate": "Aug, 2023",
+    "endDate": "Sept, 2023",
+    "experiences": ["Worked on SnakeGame", "Design an Game Interface"],
+    "imageSrc": "history/tasinnovation_logo.jpeg"
+  },
+  {
+    "role": "Agile Methodology Virtual Experince Program",
+    "organisation": "Forage",
+    "startDate": "July, 2023",
+    "endDate": "July, 2023",
+    "experiences": ["Attended program for Agile Methodology", "Learn about agile and SDLC process"],
+    "imageSrc": "history/forage.png"
+  }
+]

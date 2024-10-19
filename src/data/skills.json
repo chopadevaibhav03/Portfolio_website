@@ -1,0 +1,49 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/Java.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/C++.png"
+  },
+  
+   {
+     "title":"php",
+     "imageSrc":"skills/php.png"
+   },
+  {
+    "title": "SpringBoot",
+    "imageSrc": "skills/SpringBoot.png"
+  },
+  {
+    "title": "MySql",
+    "imageSrc": "skills/MySql.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  }
+ 
+  
+]
