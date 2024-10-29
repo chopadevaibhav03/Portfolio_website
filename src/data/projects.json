@@ -1,32 +1,42 @@
 [
+  
   {
-    "title": "Project Biofuel Supply Chain",
-    "imageSrc": "projects/images.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Angular","Java","Sql",  "Spring Boot"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/chopadevaibhav03/projectBiofuel"
-  },
-  {
-    "title": "Food ordering Web Application",
-    "imageSrc": "projects/food.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Personal Portfolio",
+    "imageSrc": "projects/deep-web-cover.jpg",
+    "description": "A personal portfolio website showcasing projects, skills, and experience, built with React to practice modern web development concepts.",
     "skills": ["React"],
+    "demo": "https://vrc-portfolio.vercel.app/",
+    "source": "https://github.com/chopadevaibhav03/Portfolio_website"
+  },
+  
+  {
+    "title": "Food Ordering Web Application",
+    "imageSrc": "projects/food.png",
+    "description": "A responsive food ordering platform that allows users to browse menus, add items to cart, and place orders online.",
+    "skills": ["React","Tailwind CSS"],
     "demo": "https://www.example.com",
     "source": "https://github.com/chopadevaibhav03/React-Development"
   },
   {
-    "title": "Ecom Web Application",
+    "title": "Project Biofuel Supply Chain",
+    "imageSrc": "projects/images.png",
+    "description": "A web application for managing biofuel production and distribution from raw materials to end products, streamlining supply chain processes.",
+    "skills": ["Angular", "Java", "SQL", "Spring Boot"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/chopadevaibhav03/projectBiofuel"
+  },
+  {
+    "title": "E-Commerce Web Application",
     "imageSrc": "projects/cart.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "An e-commerce application enabling users to view, search, and manage products with CRUD functionality and Spring Boot backend.",
     "skills": ["React", "Java", "Spring Boot"],
     "demo": "https://www.example.com",
     "source": "https://github.com/chopadevaibhav03/EcomApp-spring-react"
   },
   {
-    "title": "Hotel Managment",
+    "title": "Hotel Management System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A C++ based system for managing hotel operations, including booking, check-ins, and check-outs, designed for efficient hotel management.",
     "skills": ["C++"],
     "demo": "https://www.example.com",
     "source": "https://github.com/chopadevaibhav03/Hotel-Managment"
