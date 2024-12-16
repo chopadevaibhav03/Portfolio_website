@@ -6,7 +6,7 @@
     "description": "A personal portfolio website showcasing projects, skills, and experience, built with React to practice modern web development concepts.",
     "skills": ["React"],
     "demo": "https://vrc-portfolio.vercel.app/",
-    "source": "https://github.com/chopadevaibhav03/Portfolio_website"
+    "source": "https://portfolio-website-mzbl7rwse-vaibhav-chopades-projects.vercel.app/"
   },
   
   {
@@ -37,6 +37,14 @@
     "title": "Hotel Management System",
     "imageSrc": "projects/project.png",
     "description": "A C++ based system for managing hotel operations, including booking, check-ins, and check-outs, designed for efficient hotel management.",
+    "skills": ["C++"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/chopadevaibhav03/Hotel-Managment"
+  },
+  {
+    "title": "IPO WebApp & REST APIs Development",
+    "imageSrc": "projects/logo.png",
+    "description": "A Django based system for managing IPO's operations, including booking, Listing, and Allote, designed for efficient IPO management.",
     "skills": ["C++"],
     "demo": "https://www.example.com",
     "source": "https://github.com/chopadevaibhav03/Hotel-Managment"
