@@ -1,10 +1,91 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Outfit", Arial, Helvetica, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  :root {
+    color-scheme: dark;
+    --color-bg: 11 13 16;
+    --color-surface: 17 21 26;
+    --color-surface-subtle: 22 27 34;
+    --color-surface-muted: 28 33 40;
+    --color-surface-card: 18 23 30;
+    --color-border: 37 42 49;
+    --color-border-subtle: 26 32 39;
+    --color-border-active: 55 65 81;
+    --color-accent: 59 130 246;
+    --color-accent-hover: 37 99 235;
+    --color-text-primary: 245 245 245;
+    --color-text-secondary: 156 163 175;
+    --color-text-muted: 107 114 128;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --color-bg: 11 13 16;
+    --color-surface: 17 21 26;
+    --color-surface-subtle: 22 27 34;
+    --color-surface-muted: 28 33 40;
+    --color-surface-card: 18 23 30;
+    --color-border: 37 42 49;
+    --color-border-subtle: 26 32 39;
+    --color-border-active: 55 65 81;
+    --color-accent: 59 130 246;
+    --color-accent-hover: 37 99 235;
+    --color-text-primary: 245 245 245;
+    --color-text-secondary: 156 163 175;
+    --color-text-muted: 107 114 128;
+  }
+
+  .light {
+    color-scheme: light;
+    --color-bg: 248 250 252;
+    --color-surface: 255 255 255;
+    --color-surface-subtle: 241 245 249;
+    --color-surface-muted: 226 232 240;
+    --color-surface-card: 255 255 255;
+    --color-border: 226 232 240;
+    --color-border-subtle: 241 245 249;
+    --color-border-active: 203 213 225;
+    --color-accent: 37 99 235;
+    --color-accent-hover: 29 78 216;
+    --color-text-primary: 15 23 42;
+    --color-text-secondary: 71 85 105;
+    --color-text-muted: 100 116 139;
+  }
+
+  body {
+    background-color: rgb(var(--color-bg));
+    color: rgb(var(--color-text-primary));
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--color-bg));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--color-border));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--color-border-active));
+  }
 }
