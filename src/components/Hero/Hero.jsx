@@ -95,13 +95,9 @@ export const Hero = () => {
             <div className="relative w-full max-w-[260px] sm:max-w-[290px] lg:max-w-[320px]">
               <div className="aspect-[4/5] sm:aspect-square w-full rounded-2xl overflow-hidden border border-border bg-surface shadow-xl shadow-black/25">
                 <img
-                  src="/src/assets/images/vaibhav_profile_1791658778584.jpg"
+                  src="/vaibhav.png"
                   alt="Vaibhav Chopade"
-                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-300"
-                  onError={(e) => {
-                    e.target.src = "/vaibhav.png";
-                  }}
                 />
               </div>
             </div>
